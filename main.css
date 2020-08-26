@@ -5,7 +5,6 @@
 }
 
 .main {
-    padding: 100px;
     font-family: sans-serif;
     font-weight: 700;
     font-size: 48px;
@@ -15,7 +14,6 @@
 }
 
 .header {
-    padding: 100px 0;
     font-family: sans-serif;
     font-weight: 700;
     font-size: 48px;
@@ -25,11 +23,19 @@
 }
 
 .footer {
-    padding: 100px;
     font-family: sans-serif;
     font-weight: 700;
     font-size: 48px;
     text-align: center;
     background-color: coral;
     color: lime;
+}
+
+.header,
+.footer {
+    height: 10vh;
+}
+
+.main {
+    height: 80vh;
 }
