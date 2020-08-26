@@ -1,19 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .main {
     padding: 100px;
-    text-align: center;
     font-family: sans-serif;
-    font-size: 48px;
     font-weight: 700;
+    font-size: 48px;
     text-align: center;
     background-color: goldenrod;
+    text-align: center;
 }
 
 .header {
     padding: 100px 0;
-    font-size: 48px;
-    font-weight: 700;
-    color: beige;
     font-family: sans-serif;
-    background-color: darkseagreen;
+    font-weight: 700;
+    font-size: 48px;
     text-align: center;
+    background-color: darkseagreen;
+    color: beige;
+}
+
+.footer {
+    padding: 100px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    background-color: coral;
+    color: lime;
 }
