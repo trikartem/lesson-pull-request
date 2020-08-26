@@ -4,15 +4,6 @@
     box-sizing: border-box;
 }
 
-.main {
-    font-family: sans-serif;
-    font-weight: 700;
-    font-size: 48px;
-    text-align: center;
-    background-color: goldenrod;
-    text-align: center;
-}
-
 .header {
     font-family: sans-serif;
     font-weight: 700;
@@ -20,6 +11,11 @@
     text-align: center;
     background-color: darkseagreen;
     color: beige;
+}
+
+.main {
+    font-family: sans-serif;
+    background-color: goldenrod;
 }
 
 .footer {
@@ -36,6 +32,20 @@
     height: 10vh;
 }
 
+.wrap {
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .main {
     height: 80vh;
+}
+
+.main h1 {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
 }
